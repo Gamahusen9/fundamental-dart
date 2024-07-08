@@ -43,6 +43,16 @@ void main() {
   print(boolKondisiTrue);
   bool boolKondisiFalse = false;
   print(boolKondisiFalse);
+
+  // ini adalah tipe data dynamic(bisa menampung semua jenis tipe data)
+  dynamic variabel = 100;
+  print("DYNAMIC: $variabel");
+
+  variabel = 'halo';
+  print("DYNAMIC: $variabel");
+
+  variabel = true;
+  print('DYNAMIC: $variabel');
 }
 
 String getValue() {
